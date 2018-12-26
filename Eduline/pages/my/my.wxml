@@ -1,0 +1,25 @@
+<view wx:if="{{is_login}}">
+  <text>个人中心</text>
+</view>
+<view wx:else>
+  <view class="login">
+    <view class='login-c'>
+      <view class="login-child login-text">账号</view>
+      <input class='login-child login-input' placeholder="手机号/用户名/邮箱" type="text"></input>
+    </view>
+    <view class='login-c'>
+      <view class="login-child login-text">密码</view>
+      <input class='login-child login-input' placeholder="请输入登录密码" type="password"></input>
+    </view>
+    <button class='login-btn'>登录</button>
+    <view class='login-o'>
+      <view class='login-reg'>注册</view>
+      <view class='login-forget'>忘记密码？</view>
+    </view>
+  </view>
+  <view class="wechat">
+      <view class='wechat-title'>微信绑定登录</view>
+      <view><image class="con-img-wecat" src="/images/my/wechat.png"></image></view>
+      <button class="third-btn">授权登录</button>
+  </view>
+</view>

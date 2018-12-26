@@ -1,0 +1,48 @@
+/* pages/my/my.wxss */
+page{
+    height: 100%;
+}
+.login-c{
+  display: flex;
+}
+.login-child{
+  display: inline-block;
+  padding: 1rem;
+}
+.login-btn{
+  width: 90%;
+  margin-top: 20rpx; 
+  background-color: #9dd1f7;
+  color: white;
+}
+.login-o{
+  display: block;
+  padding: 30rpx 40rpx;
+}
+.login-reg{
+  display: inline-block;
+  float: left;
+}
+.login-forget{
+  display: inline-block;
+  float: right;
+}
+
+.wechat{
+  text-align: center;
+  margin-top: 2rem;
+}
+.wechat-title{
+  line-height: 3rem;
+  font-size: 1rem;
+}
+.con-img-wecat{
+  width: 4rem;
+  height: 4rem;
+}
+.third-btn{
+  width: 90%;
+  margin-top: 20rpx; 
+  background-color: #5bae4c;
+  color: white;
+}
